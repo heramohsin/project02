@@ -1,0 +1,244 @@
+
+
+
+/* ---------------header---------- */
+.A{
+    background-image: url(./img/Hero-bg.png);
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    padding-top: 30px;
+}
+.logo1 span{
+    color: rgba(78, 71, 255, 1);
+    font-weight: bolder;
+    font-size: 50px; 
+    margin-left: 40px ;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    margin-right: 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.cool-dark{
+    text-align: center;
+    margin-top: 10px;
+    padding: 100px 189px;
+}
+.cool-dark h1{
+color: rgba(37, 36, 50, 1);
+font-weight: bold;
+font-size: 65px;
+}
+.btn-1{
+    margin-top: -10px;
+}
+
+/* --------------about-secton----------- */
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 32px;
+    justify-items: center;
+    max-width: 1100px;
+    
+}
+.about-section{
+    padding: 0 50px;
+}
+.about-section h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.about-section p{
+font-size: 24px;
+font-weight: 300;
+}
+.imge-section img{
+    height: 300px;
+    width: auto;
+    border-radius: 20px;
+
+}
+
+
+/* -----------percentage---------- */
+.c{
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+
+}
+.users{
+padding: 60px;
+margin-bottom: 50px;
+}
+.users h1{
+    text-align: center;
+    margin:20px;
+    font-size: 38px;
+    font-weight: bold; 
+    line-height: 1.1; 
+}
+.percentages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+}
+.percentages .k h1{
+color: rgba(78, 71, 255, 1);
+font-size: 80px;
+font-weight: bolder;
+margin:20px;
+}
+.percentages .k h5{
+   color: rgba(0, 0, 0, 0.5); 
+   font-size: 20px;
+   margin:-14px 47px;
+}
+.percentages .k{
+font-size: 20px;
+font-weight: 900;
+}
+
+/* --------------------user-say-------------- */
+.user-say{
+    background-color: rgba(245, 248, 255, 1);
+    padding: 0 52px;
+    margin-bottom: 100px;
+}
+
+.user-head-line{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.profile{
+    display: flex;
+    justify-items: center;
+     
+}
+.profile img{
+    border-radius: 50%;
+    
+}
+.profile .inform{
+margin-left: 11px;
+padding-top: 10px;
+line-height: 0;
+
+}
+
+.profile .inform h4{
+    margin-top: 0;
+    line-height: 1px;
+}
+.usersay-headline{
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 10px;
+    
+    padding: 50px;
+}
+/* -------------by-designers--------- */
+.by-designers{
+    display: flex;
+    gap: 10px;
+}
+
+/* ----------ready------- */
+.ready{
+    text-align: center;
+    margin-bottom: 50px;
+    background-color:rgb(236, 236, 245);
+}
+.ready img{
+ height: 300px;
+ border-radius: 10px;
+ width: 840px;
+ margin: 35px;    
+}
+
+/* -----------Touch-section--------- */
+.Touch-section1{
+ background-color: rgb(241, 239, 239);
+ margin-top: -50px;
+}
+.Touch-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    padding: 142px 0;
+   
+}
+label{
+     display: block;
+}
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+ }
+ .Touch-section h1{
+    font-size: 97px;
+    font-weight: bold;
+ }
+ .input-type label{
+ padding:6px 0px;   
+ }
+input[type="text"],[type="email"],textarea {
+    height: 63px;
+    background-color: wheat;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    padding: 18px;
+}
+.btn-primary{
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(78, 71, 255, 1);
+    margin-bottom: 30px;
+    line-height: 10px;
+}
+.ms-box{
+    height: 111px;
+}
+/* ----------------footer-------- */
+footer{
+    text-align: center;
+    padding: 72px 366px;
+}
+ footer .discription span{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-weight:bolder;
+} 
+.down-list ul{
+list-style: none;
+display: flex;
+gap: 20px;
+
+}
+.down-list{
+    text-align: center;
+    display: inline-block;
+}
+.down-list ul a{
+    text-decoration: none;
+    display: block;
+  
+}
+footer h3{
+    color: rgba(137, 135, 161, 1);
+
+}
